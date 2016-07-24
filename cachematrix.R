@@ -1,5 +1,5 @@
 ##makeCacheMatrix creates a list of functions stored with values super assigned
-##accepts argument x which must be an invertible matrix 'x'
+##accepts argument x which must be an invertible matrix 'x'; assume x is always invertible
 ##Let blob<-makeCacheMatrix(x)
 makeCacheMatrix <- function(x = numeric()) {
 ## value of the inverse of the matrix is initialized to NULL
